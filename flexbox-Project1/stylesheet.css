@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.flex-container{
+    background-color: #666666;
+    padding: 5px; 
+    width: 980px;
+    display: flex;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30pt;
+    color: white;
+}
+
+.flexbox1 {
+   display: inline-flex;   
+     gap: 15px; 
+      padding: 7px;  
+      text-align: center;    
+  }
+
+  .flexbox2 {
+    display: inline-flex;
+    gap: 15px; 
+   padding: 7px;
+   text-align: center; 
+  }
+
+.flexbox3 {
+    display: inline-flex;
+     gap: 15px; 
+     padding: 7px;
+     text-align: center;
+  }
+
+ .flexbox4 {
+    display: inline-flex;
+     gap: 15px; 
+     padding: 7px;
+     text-align: center; 
+  }
+
+ .flexbox5 {
+    display: inline-flex;
+     gap: 15px; 
+    padding: 7px;
+    text-align: center;  
+  }
+  
+.logo {
+    background-color: #aaaaaa;
+    /* padding: 0px ;  */
+    height: 50px;
+    width: 350px;
+    text-align: center;  
+    line-height: 50px;
+  }
+
+.menu {
+  background-color: #aaaaaa;
+   /* padding: 50px 230px;  */
+   height: 50px;
+   width: 595px;
+   line-height: 50px;
+ }
+  
+  
+.slides {
+  background-color: #aaaaaa;
+  /* padding: 50px 230px;  */
+  height: 300px;
+  width: 960px;
+  line-height: 300px;
+  }
+
+.feat1 {
+    background-color: #aaaaaa;
+    padding: 1px 30px; 
+ height: 250px;
+ width: 250px;
+ line-height: 250px;
+ }
+
+.feat2 {
+    background-color: #aaaaaa;
+   padding: 1px 30px;  
+ height: 250px;
+ width: 250px;
+ line-height: 250px;
+ }
+
+.feat3 {
+     background-color: #aaaaaa;
+  padding: 1px 30px;  
+ height: 250px; 
+  width: 250px; 
+  line-height: 250px;
+ }
+
+ .side {
+  background-color: #aaaaaa;
+ padding: 1px 30px;   
+height: 400px; 
+width: 305px; 
+line-height: 400px;  
+}
+
+.text {
+  background-color: #aaaaaa;
+ padding: 1px 30px;  
+height: 400px; 
+width: 520px; 
+line-height: 400px; 
+}
+
+.footer {
+  background-color: #aaaaaa;
+/* padding: 1px 0px;   */
+height: 200px; 
+width: 960px; 
+line-height: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="flex-"] {
+    width: 100%;
+  }
+}
+
+
