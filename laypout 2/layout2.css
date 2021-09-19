@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.flex-container{
+    background-color: #666666;
+    padding: 10px; 
+    width: 970px;
+     /* display: flex; */
+    flex-wrap: wrap;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50pt;
+    color: white;
+    align-items: flex-start;
+
+}
+
+.flexbox1 {
+   display: inline-flex;   
+     gap: 240px; 
+      padding: 7px;  
+      text-align: center; 
+     
+    
+  }
+
+  .flexbox2 {
+    display: inline-flex;
+    gap: 15px; 
+   padding: 7px;
+   text-align: center;
+   
+
+}
+ .flexbox3 {
+    display: inline-flex;
+     gap: 15px; 
+     padding: 7px;
+     text-align: center;
+    
+  }
+
+ .flexbox4 {
+    display: inline-flex;
+     gap: 15px; 
+     padding: 7px;
+     text-align: center; 
+     
+     
+     
+  }
+
+ .flexbox5 {
+    display: inline-flex;
+     gap: 15px; 
+    padding: 7px;
+    text-align: center;  
+    
+  }
+  
+.logo {
+    background-color: #aaaaaa;
+     padding: 0px ; 
+    height: 150px;
+    width: 350px;
+    text-align: center;  
+    line-height: 150px;
+
+  }
+.phone {
+    background-color: #aaaaaa;
+    padding: 8px ; 
+    height: 60px;
+    width: 347px;
+    text-align: center;  
+    line-height: 60px;
+    margin-top: 12px;
+    
+    
+  }
+.menu {
+  background-color: #aaaaaa;
+   padding: 50px 230px; 
+   height: 50px;
+   width: 490px;
+   line-height: 50px;
+ }
+  
+  
+.slides {
+  background-color: #aaaaaa;
+   padding: 50px 230px; 
+  height: 300px;
+  width: 490px;
+  line-height: 300px;
+  }
+
+.feat1, .feat2, .feat3, .feat4 {
+    background-color: #aaaaaa;
+    padding: 1px 30px; 
+ height: 230px;
+ width: 167px;
+ line-height: 250px;
+ align-items: flex-start; 
+
+ }
+
+/* .feat2 { */
+    /* background-color: #aaaaaa; */
+   /* padding: 1px 30px;   */
+ /* height: 250px; */
+ /* width: 250px; */
+ /* line-height: 250px; */
+ /* } */
+/*  */
+/* .feat3 { */
+     /* background-color: #aaaaaa; */
+  /* padding: 1px 30px;   */
+ /* height: 250px;  */
+  /* width: 250px;  */
+  /* line-height: 250px; */
+ /* } */
+
+ .side {
+  background-color: #aaaaaa;
+ padding: 30px;   
+height: 400px; 
+width: 265px; 
+line-height: 400px;  
+}
+
+.text {
+  background-color: #aaaaaa;
+ padding: 30px;  
+height: 400px; 
+width: 550px; 
+line-height: 450px; 
+}
+
+
+.footer {
+  background-color: #aaaaaa;
+ padding: 1px 0px;  
+height: 200px; 
+width: 950px; 
+line-height: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="flex-"] {
+    width: 100%;
+  }
+}
+
+
