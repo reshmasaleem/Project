@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.flex-container{
+    background-color: #aaaaaa;
+    padding: 5px; 
+    width: 1430px;
+    display: flex;
+    font-family: sans-serif, monospace;
+    /* font-size: 30pt; */
+    color: black;
+}
+
+.flexbox1 {
+   display: inline-flex;   
+     gap: 15px; 
+      padding: 7px;  
+      text-align: left;
+  }
+
+  .flexbox2 {
+    display: inline-flex;
+    gap: 15px; 
+   padding: 7px;
+   text-align: left; 
+  }
+
+.flexbox3 {
+    display: inline-flex;
+     gap: 15px; 
+     padding: 7px;
+     text-align: left;
+  }
+
+ .flexbox4 {
+    display: inline-flex;
+     gap: 15px; 
+     padding: 7px;
+     text-align: left; 
+  }
+
+ .flexbox5 {
+    display: inline-flex;
+     gap: 15px; 
+    padding: 7px;
+    text-align: left;  
+  }
+  
+.logo {
+     background-color:white; 
+    padding: 1px 30px; 
+    height: 70px;
+    width: 340px;
+    line-height: 50px;
+  }
+
+.menu {
+   background-color: white;
+  padding: 1px 30px; 
+  height: 70px;
+   width: 938px;
+   line-height: 50px;
+ }
+  
+  
+.slides {
+  background-color: white;
+  padding: 1px 30px; 
+  height: 300px;
+  width: 1350px;
+  line-height: 100px;
+  }
+
+.feat1, .feat2, .feat3 {
+    background-color: white;
+    padding: 1px 30px; 
+ height: 250px;
+ width: 400px;
+ line-height: 80px;
+ }
+
+/*.feat2 {
+    background-color: white;
+   padding: 1px 30px;  
+ height: 250px;
+ width: 256px;
+ line-height: 250px;
+ }
+
+.feat3 {
+     background-color:white; 
+  padding: 1px 30px;  
+ height: 250px; 
+  width: 256px; 
+  line-height: 250px;
+ }*/
+
+ .side {
+  background-color: white;
+ padding: 1px 30px;   
+height: 400px; 
+width: 300px; 
+line-height: 80px;  
+}
+
+.text {
+  background-color:white;
+ padding: 1px 30px;  
+height: 400px; 
+width: 975px; 
+line-height: 80px; 
+}
+
+.footer {
+  background-color:white;
+  padding: 1px 30px; 
+height: 100px; 
+width: 1350px;
+line-height: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="flex-"] {
+    width: 100%;
+  }
+}
+
+
